@@ -8,7 +8,7 @@ function App() {
     <div className='App'>
       <h1>message!</h1>
       <Button> CLICK ME Apptsx</Button>
-      <Component></Component>
+      <Component name='Andres'></Component>
       <About></About>
     </div>
   );

@@ -1,9 +1,12 @@
 import styled from "styled-components";
 
 export default function About() {
+  function handleClick() {
+    alert("Beat me");
+  }
   return (
     <>
-      <Button>ABOUT</Button>
+      <Button onClick={handleClick}>ABOUT</Button>
     </>
   );
 }
